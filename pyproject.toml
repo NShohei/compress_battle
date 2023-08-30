@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "compress-battle"
+version = "0.1.0"
+description = ""
+authors = ["NShohei <nodasyohei4130@gmail.com>"]
+readme = "README.md"
+packages = [{include = "compress_battle"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
